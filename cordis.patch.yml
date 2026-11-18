@@ -6,8 +6,8 @@
         readOnly: true
         dryRun: true
         channel:
-          adapter: creator-center
-          baseUrl: 'https://creator.douyin.com'
+          adapter: ego-browser
+          baseUrl: 'https://www.douyin.com'
         interpretation:
           defaultMode: simple
           maxDurationSec: 600
