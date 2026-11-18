@@ -1,0 +1,22 @@
+- insert:
+    - id: douyin-research
+      name: '@local/douyin-research-plugin'
+      config:
+        schemaVersion: 1
+        readOnly: true
+        dryRun: true
+        channel:
+          adapter: creator-center
+          baseUrl: 'https://creator.douyin.com'
+        interpretation:
+          defaultMode: simple
+          maxDurationSec: 600
+          maxBatch: 3
+          persist: false
+        privacy:
+          storeRaw: false
+          storeFrames: false
+          redactUserNames: true
+          hashIds: true
+        features:
+          fullInterpretation: false
